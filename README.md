@@ -22,38 +22,34 @@ To run this application locally, follow these steps:
    git clone https://github.com/your-username/blog-app-django.git
 
 
-2. Navigate to the project directory:<br>
-'cd blog-app-django' <br>
+2. Navigate to the project directory:
+
+   ```bash
+   cd blog-app-django
 
 3. Create a virtual environment:
 
-python -m venv venv
-Activate the virtual environment:
+   ```bash   
+   python -m venv venv
 
+4. Activate the virtual environment:
 On Windows:
 
-bash
-Copy code
-venv\Scripts\activate
+   ```bash
+   venv\Scripts\activate
+
 On macOS and Linux:
 
-bash
-Copy code
-source venv/bin/activate
-Install the project dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Apply migrations:
+   ```bash
+   source venv/bin/activate
+ 
+5. Apply migrations:
 
-bash
-Copy code
+
 python manage.py migrate
 Run the development server:
 
-bash
-Copy code
 python manage.py runserver
 Access the application in your web browser at http://localhost:8000.
 
@@ -66,6 +62,7 @@ Make your changes.
 Commit your changes (git commit -am 'Add new feature').
 Push to the branch (git push origin feature/new-feature).
 Create a new Pull Request.
+
 License
 This project is licensed under the terms of the MIT license. See the LICENSE file for more information.
 
