@@ -1,8 +1,6 @@
 # Blog App Built with Django
 
-This project is a simple blog application built using Django following the tutorial provided by Real Python. The application allows users to create, read, update, and delete blog posts.
-
-The tutorial can be found at [Real Python - Build a Blog from Scratch with Django](https://realpython.com/build-a-blog-from-scratch-django/).
+This project is a simple blog application built using Django. The application allows user to create, read, update, and delete blog posts.
 
 ## Features
 
@@ -10,7 +8,7 @@ The tutorial can be found at [Real Python - Build a Blog from Scratch with Djang
 - Create, update, and delete blog posts.
 - View a list of all blog posts.
 - Individual pages for each blog post.
-- Admin panel for managing posts and users.
+- User comments
 
 ## Installation
 
@@ -18,39 +16,40 @@ To run this application locally, follow these steps:
 
 1. Clone the repository:
 
-   ```bash
+   ```
    git clone https://github.com/your-username/blog-app-django.git
-
+   ```
 
 2. Navigate to the project directory:
 
-   ```bash
+   ```
    cd blog-app-django
+   ```
 
 3. Create a virtual environment:
 
-   ```bash   
+   ```
    python -m venv venv
-
+   ```
 4. Activate the virtual environment:
-On Windows:
+   On Windows:
 
-   ```bash
-   venv\Scripts\activate
-
-On macOS and Linux:
-
-
-   ```bash
-   source venv/bin/activate
+     ```bash
+     venv\Scripts\activate
+     ```
+   On macOS and Linux:
+   ```
+      source venv/bin/activate
+   ```
  
 5. Apply migrations:
-
-
-python manage.py migrate
-Run the development server:
-
-python manage.py runserver
+    ```bash 
+    python manage.py migrate
+    ```
+6. Run the development server:
+   ```
+    python manage.py runserver
+   ```
 Access the application in your web browser at http://localhost:8000.
 
 Contributing
@@ -68,3 +67,4 @@ This project is licensed under the terms of the MIT license. See the LICENSE fil
 
 Acknowledgements
 Real Python for the excellent tutorial on building a blog with Django.
+The tutorial can be found at [Real Python - Build a Blog from Scratch with Django](https://realpython.com/build-a-blog-from-scratch-django/).
