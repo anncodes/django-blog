@@ -52,19 +52,20 @@ To run this application locally, follow these steps:
    ```
 Access the application in your web browser at http://localhost:8000.
 
-Contributing
+## Contributing
 If you'd like to contribute to this project, please follow these steps:
+<ol>
+   <li>Fork the repository.</li>
+   <li>Create a new branch (git checkout -b feature/new-feature).</li>
+   Make your changes.
+   <li>Commit your changes (git commit -am 'Add new feature').</li>
+   <li>Push to the branch (git push origin feature/new-feature).</li>
+   <li>Create a new Pull Request.</li>
+</ol>
 
-Fork the repository.
-Create a new branch (git checkout -b feature/new-feature).
-Make your changes.
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature/new-feature).
-Create a new Pull Request.
-
-License
+## License
 This project is licensed under the terms of the MIT license. See the LICENSE file for more information.
 
-Acknowledgements
+## Acknowledgements
 Real Python for the excellent tutorial on building a blog with Django.
 The tutorial can be found at [Real Python - Build a Blog from Scratch with Django](https://realpython.com/build-a-blog-from-scratch-django/).
